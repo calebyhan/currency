@@ -9,8 +9,8 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name="currency_ch",
-    version="0.0.1",
+    name="currency-ch",
+    version="0.0.6",
     description="Python library for currency exchange.",
     long_description=long_description,
     long_description_content_type="text/markdown",
