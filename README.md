@@ -6,6 +6,8 @@ Python library for currency exchanges.
 
 All rates originated from [FloatRates](https://www.floatrates.com/json-feeds.html).
 
+Disclaimer: all rates may or may not be the most accurate, and could vary by search on the internet.
+
 
 ## Installation
 ----------------------
@@ -38,10 +40,13 @@ currency.rate("usd", "eur")
 
 Converts input_currency of amount (default 1) to output_currency with rounded to roundTo decimal places (default 2).
 
-``currency.rate(input_currency, output_currency)``
+``currency.rate(input_currency, output_currency, roundTo)``
 
-Returns rate of converting input_currency to output_currency.
+Returns rate of converting input_currency to output_currency rounded to roundTo decimal places (default 2).
 
+``currency.add(values, output_currency, roundTo)``
+
+Adds up currencies in 2-D array values (in format [amount, input_currency]), and displays in form of output_currency rounded to roundTo decimal places (default 2).
 
 ## Contributing
 ----------------------

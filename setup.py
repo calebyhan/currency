@@ -10,7 +10,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name="currency-ch",
-    version="0.0.9",
+    version="0.1.0",
     description="Python library for currency exchange.",
     long_description=long_description,
     long_description_content_type="text/markdown",
